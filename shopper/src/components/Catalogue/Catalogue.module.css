@@ -1,0 +1,24 @@
+.products {
+  max-width: 60rem;
+  width: 90%;
+  margin: 0 auto;
+  animation: products-appear 1s ease-out forwards;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes products-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
